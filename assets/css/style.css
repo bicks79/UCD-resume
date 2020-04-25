@@ -22,7 +22,26 @@
     background-color: #525252;
 }
 
-/*----------------------------------------------Heading */
+/*----------------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+/*----------------------------------------------Headings */
 
 header {
     margin: 0;
@@ -114,4 +133,12 @@ header {
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
 
+}
+
+/*----------------------------------------------Footer.css */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
 }
